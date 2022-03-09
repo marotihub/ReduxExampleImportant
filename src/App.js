@@ -14,6 +14,9 @@ export default function App() {
       <button onClick={() => dispatch(decrement())}>Decrement</button>
       <button onClick={() => dispatch(reset())}>Reset</button>
       {isLogged ? <h1>Welcome Admin</h1> : <h1>welcome guest</h1>}
+      <h1>hello viki</h1> 
+<h1>Hello Maroti bendrikar</h1>
+
     </div>
   );
 }
